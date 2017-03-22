@@ -18,3 +18,11 @@ print("\nKeys:", len(repo_dict))
 
 for key in sorted(repo_dict.keys()):
     print(key)
+print("\nSelected information about first repository:")
+print('Name:', repo_dict['name'])
+print('Owner:', repo_dict['owner']['login'])
+print('Stars:', repo_dict['stargazers_count'])
+print('Repository:', repo_dict['html_url'])
+print('Created:', repo_dict['created_at'])
+print('Updated:', repo_dict['updated_at'])
+print('Description:', repo_dict['description'])
